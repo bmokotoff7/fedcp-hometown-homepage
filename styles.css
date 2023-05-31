@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#hero-section {
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    height: 340px;
+    width: 720px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#hero-title {
+    background: #1D3557;
+    border-radius: 10px;
+    padding: 6px 12px;
+    margin-bottom: 12px;
+    
+}
+
+#hero-caption {
+    width: 355px;
+    background: #457B9D;
+    border-radius: 10px;
+    padding: 6px 30px;
+    margin-top: 0;
+}
+
+.activity-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+#guide-photo {
+    width: 180px;
+    
+}
