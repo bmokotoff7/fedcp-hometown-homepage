@@ -8,7 +8,6 @@ body {
     background-image: url("images/torshov.jpg");
     background-size: cover;
     height: 340px;
-    width: 720px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -26,16 +25,13 @@ body {
 }
 
 #hero-caption {
-    width: 355px;
     background: #457B9D;
     border-radius: 10px;
-    padding: 6px 30px;
+    padding: 6px 12px;
     margin-top: 0;
 }
 
 #activity-section {
-    width: 720px;
-    height: 380px;
     margin: 0 auto;
     background: #F1FAEE;
     display: flex;
@@ -45,10 +41,15 @@ body {
 
 }
 
+#activity-heading {
+    padding-top: 20px;
+}
+
 #activity-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding: 20px;
 }
 
 .activity {
@@ -64,23 +65,22 @@ body {
     border-radius: 50%;
 }
 
-.activity-heading {
+.activity-title {
     margin: 20px auto 0 auto;
 }
 
 #guide-section {
     background: #FFFFFF;
-    width: 720px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
 
 #guide-card {
-    width: 400px;
+    width: 450px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin: 50px auto;
     padding: 15px 20px;
@@ -94,6 +94,10 @@ body {
 #guide-photo {
     width: 180px;    
     border-radius: 10px;
+}
+
+#guide-text {
+    width: 220px;
 }
 
 .italic-text {
