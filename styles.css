@@ -55,6 +55,8 @@ body {
     flex-direction: row;
     justify-content: space-around;
     padding: 20px;
+    margin: auto 30px;
+
 }
 
 .activity {
@@ -62,6 +64,8 @@ body {
     flex-direction: column;
     align-items: center;
     width: 300px;
+    margin: auto 30px;
+
 }
 
 .activity-photo {
@@ -130,6 +134,7 @@ body {
 
 a {
     color: #1D3557;
+    text-decoration: none;
 }
 
 .activity-page {
@@ -137,5 +142,86 @@ a {
     color: #1D3557;
     margin: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+.activity-page-heading {
+    margin: 40px auto 20px;
+}
+
+.activity-card {
+    display: flex;
+    margin: 30px auto;
+}
+
+.activity-card-img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.activity-card-info {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    margin: 20px 30px;
+}
+
+.activity-card-text {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+
+.activity-name {
+    margin: 0;
+}
+
+.link-btn {
+    background-color: #D1D9CE;
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px 0;
+    padding: 10px 14px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+.link-btn:hover {
+    background: #A8DADC;
+}
+
+.back-btn {
+    background-color: #D1D9CE;
+    width: auto;
+    margin: 20px auto 40px;
+    padding: 10px 14px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+.back-btn:hover {
+    background: #A8DADC;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+    margin: 0 30px;
+}
+
+tr {
+    display: flex;
+    margin: 40px auto;
+}
+
+td {
+    margin: 0 20px;
+    max-width: 700px;
 }
