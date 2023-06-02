@@ -1,6 +1,5 @@
 body {
     text-align: center;
-    /* font-family: Arial, Helvetica, sans-serif; */
     margin: 0;
     font-family: 'Aboreto', cursive;
 }
@@ -21,9 +20,7 @@ body {
     background: rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     padding: 10px 20px;
-    margin-top: -50px;
-    margin-bottom: 12px;
-    
+    margin: -50px auto 12px;
 }
 
 #hero-caption {
@@ -66,7 +63,6 @@ body {
     align-items: center;
     width: 300px;
     margin: auto 30px;
-
 }
 
 .activity-photo {
@@ -149,11 +145,6 @@ a {
 
 .activity-page-heading {
     margin: 40px auto 20px;
-}
-
-.activity-card {
-    display: flex;
-    margin: 30px auto;
 }
 
 .activity-card-img {
