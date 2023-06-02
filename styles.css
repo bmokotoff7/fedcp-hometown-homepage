@@ -1,7 +1,8 @@
 body {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
     margin: 0;
+    font-family: 'Aboreto', cursive;
 }
 
 #hero-section {
@@ -13,7 +14,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #F1FAEE;
 }
 
 #hero-title {
@@ -105,7 +106,7 @@ body {
 }
 
 #guide-card {
-    width: 450px;
+    width: 520px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -125,7 +126,7 @@ body {
 }
 
 #guide-text {
-    width: 220px;
+    width: 250px;
 }
 
 .italic-text {
@@ -183,7 +184,7 @@ a {
 
 .link-btn {
     background-color: #D1D9CE;
-    width: 100px;
+    width: 120px;
     display: flex;
     flex-direction: row;
     justify-content: center;
